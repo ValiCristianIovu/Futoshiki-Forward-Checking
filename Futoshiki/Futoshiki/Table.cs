@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Autor1: Iovu Vali Cristian
+//Functionalitate: Am creat constructorul pentru clasa Table care se va 
+// ocupa de memorarea configuratiei tablei de joc
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
