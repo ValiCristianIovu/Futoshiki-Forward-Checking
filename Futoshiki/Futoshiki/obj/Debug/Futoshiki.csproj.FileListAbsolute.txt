@@ -1,0 +1,10 @@
+D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\obj\Debug\Futoshiki.csprojAssemblyReference.cache
+D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\obj\Debug\Futoshiki.Form1.resources
+D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\obj\Debug\Futoshiki.Properties.Resources.resources
+D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\obj\Debug\Futoshiki.csproj.GenerateResource.cache
+D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\obj\Debug\Futoshiki.csproj.CoreCompileInputs.cache
+D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\bin\Debug\Futoshiki.exe.config
+D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\bin\Debug\Futoshiki.exe
+D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\bin\Debug\Futoshiki.pdb
+D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\obj\Debug\Futoshiki.exe
+D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\obj\Debug\Futoshiki.pdb
