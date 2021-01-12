@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Autor1: Iovu Vali Cristian
+//Functionalitate: Am creat structura tablei de joc 
+
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -101,6 +105,11 @@ namespace Futoshiki
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void a03_TextChanged(object sender, EventArgs e)
         {
 
         }

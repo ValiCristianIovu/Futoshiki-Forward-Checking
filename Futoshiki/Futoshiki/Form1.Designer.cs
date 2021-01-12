@@ -1,4 +1,5 @@
-﻿namespace Futoshiki
+﻿
+namespace Futoshiki
 {
     partial class Form1
     {
@@ -550,6 +551,7 @@
             this.a03.Size = new System.Drawing.Size(72, 75);
             this.a03.TabIndex = 7;
             this.a03.Text = "";
+            this.a03.TextChanged += new System.EventHandler(this.a03_TextChanged);
             // 
             // a02
             // 
