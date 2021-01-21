@@ -1,2 +1,2 @@
-# Futoshinki Forward Checking
+# Futoshiki Forward Checking
  Proiect IA
