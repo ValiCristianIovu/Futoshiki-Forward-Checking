@@ -71,6 +71,7 @@ namespace Futoshiki
             this.a01 = new System.Windows.Forms.RichTextBox();
             this.a00 = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -133,7 +134,7 @@ namespace Futoshiki
             this.comboBox24.Location = new System.Drawing.Point(479, 479);
             this.comboBox24.Name = "comboBox24";
             this.comboBox24.Size = new System.Drawing.Size(45, 37);
-            this.comboBox24.TabIndex = 49;
+            this.comboBox24.TabIndex = 111;
             // 
             // comboBox23
             // 
@@ -146,7 +147,7 @@ namespace Futoshiki
             this.comboBox23.Location = new System.Drawing.Point(312, 479);
             this.comboBox23.Name = "comboBox23";
             this.comboBox23.Size = new System.Drawing.Size(45, 37);
-            this.comboBox23.TabIndex = 48;
+            this.comboBox23.TabIndex = 110;
             // 
             // comboBox22
             // 
@@ -159,7 +160,7 @@ namespace Futoshiki
             this.comboBox22.Location = new System.Drawing.Point(147, 479);
             this.comboBox22.Name = "comboBox22";
             this.comboBox22.Size = new System.Drawing.Size(45, 37);
-            this.comboBox22.TabIndex = 47;
+            this.comboBox22.TabIndex = 109;
             // 
             // comboBox21
             // 
@@ -172,7 +173,7 @@ namespace Futoshiki
             this.comboBox21.Location = new System.Drawing.Point(557, 407);
             this.comboBox21.Name = "comboBox21";
             this.comboBox21.Size = new System.Drawing.Size(49, 37);
-            this.comboBox21.TabIndex = 46;
+            this.comboBox21.TabIndex = 211;
             // 
             // comboBox20
             // 
@@ -185,7 +186,7 @@ namespace Futoshiki
             this.comboBox20.Location = new System.Drawing.Point(389, 407);
             this.comboBox20.Name = "comboBox20";
             this.comboBox20.Size = new System.Drawing.Size(49, 37);
-            this.comboBox20.TabIndex = 45;
+            this.comboBox20.TabIndex = 210;
             // 
             // comboBox19
             // 
@@ -198,7 +199,7 @@ namespace Futoshiki
             this.comboBox19.Location = new System.Drawing.Point(217, 407);
             this.comboBox19.Name = "comboBox19";
             this.comboBox19.Size = new System.Drawing.Size(49, 37);
-            this.comboBox19.TabIndex = 44;
+            this.comboBox19.TabIndex = 209;
             // 
             // comboBox18
             // 
@@ -211,7 +212,7 @@ namespace Futoshiki
             this.comboBox18.Location = new System.Drawing.Point(75, 407);
             this.comboBox18.Name = "comboBox18";
             this.comboBox18.Size = new System.Drawing.Size(49, 37);
-            this.comboBox18.TabIndex = 43;
+            this.comboBox18.TabIndex = 208;
             // 
             // comboBox17
             // 
@@ -224,7 +225,7 @@ namespace Futoshiki
             this.comboBox17.Location = new System.Drawing.Point(479, 325);
             this.comboBox17.Name = "comboBox17";
             this.comboBox17.Size = new System.Drawing.Size(45, 37);
-            this.comboBox17.TabIndex = 36;
+            this.comboBox17.TabIndex = 108;
             // 
             // comboBox16
             // 
@@ -237,7 +238,8 @@ namespace Futoshiki
             this.comboBox16.Location = new System.Drawing.Point(304, 325);
             this.comboBox16.Name = "comboBox16";
             this.comboBox16.Size = new System.Drawing.Size(45, 37);
-            this.comboBox16.TabIndex = 35;
+            this.comboBox16.TabIndex = 107;
+            this.comboBox16.SelectedIndexChanged += new System.EventHandler(this.comboBox16_SelectedIndexChanged);
             // 
             // comboBox15
             // 
@@ -250,7 +252,7 @@ namespace Futoshiki
             this.comboBox15.Location = new System.Drawing.Point(147, 325);
             this.comboBox15.Name = "comboBox15";
             this.comboBox15.Size = new System.Drawing.Size(45, 37);
-            this.comboBox15.TabIndex = 34;
+            this.comboBox15.TabIndex = 106;
             // 
             // comboBox14
             // 
@@ -263,7 +265,7 @@ namespace Futoshiki
             this.comboBox14.Location = new System.Drawing.Point(557, 255);
             this.comboBox14.Name = "comboBox14";
             this.comboBox14.Size = new System.Drawing.Size(49, 37);
-            this.comboBox14.TabIndex = 33;
+            this.comboBox14.TabIndex = 207;
             // 
             // comboBox13
             // 
@@ -276,7 +278,7 @@ namespace Futoshiki
             this.comboBox13.Location = new System.Drawing.Point(389, 255);
             this.comboBox13.Name = "comboBox13";
             this.comboBox13.Size = new System.Drawing.Size(49, 37);
-            this.comboBox13.TabIndex = 32;
+            this.comboBox13.TabIndex = 206;
             // 
             // comboBox12
             // 
@@ -289,7 +291,7 @@ namespace Futoshiki
             this.comboBox12.Location = new System.Drawing.Point(227, 255);
             this.comboBox12.Name = "comboBox12";
             this.comboBox12.Size = new System.Drawing.Size(49, 37);
-            this.comboBox12.TabIndex = 31;
+            this.comboBox12.TabIndex = 205;
             // 
             // comboBox11
             // 
@@ -302,7 +304,7 @@ namespace Futoshiki
             this.comboBox11.Location = new System.Drawing.Point(64, 255);
             this.comboBox11.Name = "comboBox11";
             this.comboBox11.Size = new System.Drawing.Size(49, 37);
-            this.comboBox11.TabIndex = 30;
+            this.comboBox11.TabIndex = 204;
             // 
             // comboBox10
             // 
@@ -315,7 +317,7 @@ namespace Futoshiki
             this.comboBox10.Location = new System.Drawing.Point(479, 179);
             this.comboBox10.Name = "comboBox10";
             this.comboBox10.Size = new System.Drawing.Size(45, 37);
-            this.comboBox10.TabIndex = 29;
+            this.comboBox10.TabIndex = 105;
             // 
             // comboBox9
             // 
@@ -328,7 +330,7 @@ namespace Futoshiki
             this.comboBox9.Location = new System.Drawing.Point(312, 179);
             this.comboBox9.Name = "comboBox9";
             this.comboBox9.Size = new System.Drawing.Size(45, 37);
-            this.comboBox9.TabIndex = 28;
+            this.comboBox9.TabIndex = 104;
             // 
             // comboBox8
             // 
@@ -341,7 +343,7 @@ namespace Futoshiki
             this.comboBox8.Location = new System.Drawing.Point(147, 179);
             this.comboBox8.Name = "comboBox8";
             this.comboBox8.Size = new System.Drawing.Size(45, 37);
-            this.comboBox8.TabIndex = 27;
+            this.comboBox8.TabIndex = 103;
             // 
             // comboBox7
             // 
@@ -354,7 +356,7 @@ namespace Futoshiki
             this.comboBox7.Location = new System.Drawing.Point(557, 103);
             this.comboBox7.Name = "comboBox7";
             this.comboBox7.Size = new System.Drawing.Size(49, 37);
-            this.comboBox7.TabIndex = 26;
+            this.comboBox7.TabIndex = 203;
             // 
             // comboBox6
             // 
@@ -367,7 +369,7 @@ namespace Futoshiki
             this.comboBox6.Location = new System.Drawing.Point(389, 103);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(49, 37);
-            this.comboBox6.TabIndex = 25;
+            this.comboBox6.TabIndex = 202;
             // 
             // comboBox5
             // 
@@ -380,7 +382,7 @@ namespace Futoshiki
             this.comboBox5.Location = new System.Drawing.Point(227, 103);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(49, 37);
-            this.comboBox5.TabIndex = 24;
+            this.comboBox5.TabIndex = 201;
             // 
             // comboBox4
             // 
@@ -393,7 +395,7 @@ namespace Futoshiki
             this.comboBox4.Location = new System.Drawing.Point(64, 103);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(49, 37);
-            this.comboBox4.TabIndex = 23;
+            this.comboBox4.TabIndex = 200;
             // 
             // comboBox3
             // 
@@ -406,7 +408,7 @@ namespace Futoshiki
             this.comboBox3.Location = new System.Drawing.Point(479, 32);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(45, 37);
-            this.comboBox3.TabIndex = 22;
+            this.comboBox3.TabIndex = 102;
             // 
             // comboBox2
             // 
@@ -419,7 +421,7 @@ namespace Futoshiki
             this.comboBox2.Location = new System.Drawing.Point(312, 32);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(45, 37);
-            this.comboBox2.TabIndex = 21;
+            this.comboBox2.TabIndex = 101;
             // 
             // comboBox1
             // 
@@ -432,7 +434,7 @@ namespace Futoshiki
             this.comboBox1.Location = new System.Drawing.Point(147, 32);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(45, 37);
-            this.comboBox1.TabIndex = 20;
+            this.comboBox1.TabIndex = 100;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // a33
@@ -583,7 +585,7 @@ namespace Futoshiki
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(232, 716);
+            this.button1.Location = new System.Drawing.Point(208, 716);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(131, 44);
             this.button1.TabIndex = 47;
@@ -591,11 +593,22 @@ namespace Futoshiki
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(500, 717);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(135, 43);
+            this.button2.TabIndex = 48;
+            this.button2.Text = "Joc Nou";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(838, 772);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -649,6 +662,7 @@ namespace Futoshiki
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

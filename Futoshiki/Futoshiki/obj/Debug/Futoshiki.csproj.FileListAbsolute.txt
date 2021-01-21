@@ -8,3 +8,13 @@ D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\bin\Debug\Futoshiki.exe
 D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\bin\Debug\Futoshiki.pdb
 D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\obj\Debug\Futoshiki.exe
 D:\IA\Futoshiki 3.0\Futoshiki\Futoshiki\obj\Debug\Futoshiki.pdb
+E:\Faculty\IA\Futoshinky\Futoshiki-Forward-Checking\Futoshiki\Futoshiki\bin\Debug\Futoshiki.exe.config
+E:\Faculty\IA\Futoshinky\Futoshiki-Forward-Checking\Futoshiki\Futoshiki\bin\Debug\Futoshiki.exe
+E:\Faculty\IA\Futoshinky\Futoshiki-Forward-Checking\Futoshiki\Futoshiki\bin\Debug\Futoshiki.pdb
+E:\Faculty\IA\Futoshinky\Futoshiki-Forward-Checking\Futoshiki\Futoshiki\obj\Debug\Futoshiki.csprojAssemblyReference.cache
+E:\Faculty\IA\Futoshinky\Futoshiki-Forward-Checking\Futoshiki\Futoshiki\obj\Debug\Futoshiki.Form1.resources
+E:\Faculty\IA\Futoshinky\Futoshiki-Forward-Checking\Futoshiki\Futoshiki\obj\Debug\Futoshiki.Properties.Resources.resources
+E:\Faculty\IA\Futoshinky\Futoshiki-Forward-Checking\Futoshiki\Futoshiki\obj\Debug\Futoshiki.csproj.GenerateResource.cache
+E:\Faculty\IA\Futoshinky\Futoshiki-Forward-Checking\Futoshiki\Futoshiki\obj\Debug\Futoshiki.csproj.CoreCompileInputs.cache
+E:\Faculty\IA\Futoshinky\Futoshiki-Forward-Checking\Futoshiki\Futoshiki\obj\Debug\Futoshiki.exe
+E:\Faculty\IA\Futoshinky\Futoshiki-Forward-Checking\Futoshiki\Futoshiki\obj\Debug\Futoshiki.pdb
