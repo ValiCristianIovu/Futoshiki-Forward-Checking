@@ -11,7 +11,8 @@ namespace Futoshiki
 {
     public partial class Form1 : Form
     {
-        
+        FutoshikiGrid grid;
+
         public Form1()
         {
             InitializeComponent();
@@ -93,16 +94,17 @@ namespace Futoshiki
                 verticalInequalitySigns += verticalInequalityStack.Pop();
             }
             //MessageBox.Show("board is:\n" + board + "\n orizontale is \n" + orizontalInequalitySigns + "\n  verticale is \n" + verticalInequalitySigns);
-            FutoshikiGrid grid = new FutoshikiGrid(board, orizontalInequalitySigns, verticalInequalitySigns);
+            grid = new FutoshikiGrid();
+            grid.NewGrid(board, orizontalInequalitySigns, verticalInequalitySigns);
             grid.TrySolveBKT(grid, 0, 0, 1);
-            if(grid.IsSolved()==false)
+            if (grid.IsSolved() == false)
             {
                 MessageBox.Show("Nu exista solutie pentru aceste conditii");
             }
             else
             {
                 MessageBox.Show("Solutie existenta -verifica board-ul");
-                a00.Text = Solutie.solutie[0,0].ToString();
+                a00.Text = Solutie.solutie[0, 0].ToString();
                 a01.Text = Solutie.solutie[0, 1].ToString();
                 a02.Text = Solutie.solutie[0, 2].ToString();
                 a03.Text = Solutie.solutie[0, 3].ToString();
@@ -118,7 +120,7 @@ namespace Futoshiki
                 a31.Text = Solutie.solutie[3, 1].ToString();
                 a32.Text = Solutie.solutie[3, 2].ToString();
                 a33.Text = Solutie.solutie[3, 3].ToString();
-                
+
             }
 
             grid = null;

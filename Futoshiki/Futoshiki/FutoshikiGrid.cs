@@ -11,7 +11,7 @@ namespace Futoshiki
         private int[,] inegalitatiVerticale = new int[3, 4];
         private bool solved = false;
 
-        public FutoshikiGrid(string _numere, string _inegalitatiOrizontale, string _inegalitatiVerticale)
+        public void NewGrid(string _numere, string _inegalitatiOrizontale, string _inegalitatiVerticale)
         {
             try
             {
@@ -76,7 +76,7 @@ namespace Futoshiki
                 }
             }
             TrimiteSolutia();
-            //solved = true;
+            solved = true;
             return true;
         }
 
