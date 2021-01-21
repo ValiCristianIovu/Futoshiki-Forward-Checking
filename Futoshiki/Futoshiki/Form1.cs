@@ -15,55 +15,15 @@ namespace Futoshiki
         public Form1()
         {
             InitializeComponent();
+            var myRichBoxes = panel1.Controls
+                         .OfType<RichTextBox>();
 
-            a00.SelectAll();
-            a00.SelectionAlignment = HorizontalAlignment.Center;
-
-            a01.SelectAll();
-            a01.SelectionAlignment = HorizontalAlignment.Center;
-
-            a02.SelectAll();
-            a02.SelectionAlignment = HorizontalAlignment.Center;
-
-            a03.SelectAll();
-            a03.SelectionAlignment = HorizontalAlignment.Center;
-
-            a10.SelectAll();
-            a10.SelectionAlignment = HorizontalAlignment.Center;
-
-            a11.SelectAll();
-            a11.SelectionAlignment = HorizontalAlignment.Center;
-
-            a12.SelectAll();
-            a12.SelectionAlignment = HorizontalAlignment.Center;
-
-            a13.SelectAll();
-            a13.SelectionAlignment = HorizontalAlignment.Center;
-
-            a20.SelectAll();
-            a20.SelectionAlignment = HorizontalAlignment.Center;
-
-            a21.SelectAll();
-            a21.SelectionAlignment = HorizontalAlignment.Center;
-
-            a22.SelectAll();
-            a22.SelectionAlignment = HorizontalAlignment.Center;
-
-            a23.SelectAll();
-            a23.SelectionAlignment = HorizontalAlignment.Center;
-
-            a30.SelectAll();
-            a30.SelectionAlignment = HorizontalAlignment.Center;
-
-            a31.SelectAll();
-            a31.SelectionAlignment = HorizontalAlignment.Center;
-
-            a32.SelectAll();
-            a32.SelectionAlignment = HorizontalAlignment.Center;
-
-            a33.SelectAll();
-            a33.SelectionAlignment = HorizontalAlignment.Center;
-
+            foreach (RichTextBox box in myRichBoxes)
+            {
+                box.SelectAll();
+                box.SelectionAlignment = HorizontalAlignment.Center;
+            }
+            
             
 
         }
